@@ -1,0 +1,299 @@
+
+/* Geral configs */
+.geral_style {
+  display: flex;
+  margin-top: 20px; /* Espaçamento entre o título e o conteúdo */
+}
+
+.container{
+  height: 100%;
+  align-content: center;    
+}
+
+.title_page{
+  display: flex;
+  padding-top: 20px;
+  justify-content: center; /* Alinha horizontalmente ao centro */
+  align-items: center; /* Alinha verticalmente ao centro */
+  margin-top: 0; /* Remove a margem superior padrão do título */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Espaço entre os grupos de formulário */
+}
+
+/* Login page configs */
+
+.login_page{
+    background-image: url('https://www.v2integradora.com.br/imagens/solucoes/h20200218143505.png');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+.card-login {
+  background-color: rgb(72, 119, 247);
+  height: 300px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-login-header {
+    background-color: rgb(72, 119, 247);
+    padding: 15px 0;
+    text-align: center;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .card-login-footer {
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .card-login-header h3{
+    color: #ffffff;
+    font-size: 40px;
+    font-style: oblique;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+
+/* Estilos dos grupos de formulário */
+.input-login-group {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.input-login-group-prepend {
+  display: flex;
+  justify-content: center; /* Alinha horizontalmente ao centro */
+  align-items: center; /* Alinha verticalmente ao centro */
+  width: 40px; /* Largura do ícone */
+  height: 40px; /* Altura do ícone */
+  background-color: rgba(0, 68, 255, 0.719);
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  margin-right: 5px; /* Espaçamento a direita do icone */
+}
+
+.icon-wrapper {
+  display: flex;
+  justify-content: center; /* Alinha horizontalmente ao centro */
+  align-items: center; /* Alinha verticalmente ao centro */
+  width: 100%;
+  height: 100%;
+}
+
+
+.input-login-group-text {
+  font-size: 24px;
+}
+
+input:focus{
+  outline: 0 0 0 0  !important;
+  box-shadow: 0 0 0 0 !important;
+  border: 5px;
+
+}
+
+.form-control {
+  height: 30px; /* Reduz a altura do input */
+  padding: 10px 15px; /* Ajusta o padding para manter o espaço interno apropriado */
+  font-size: 16px; /* Tamanho da fonte */ 
+  border-radius: 5px;
+  border-color: black;
+}
+
+/* Estilos para o checkbox e rótulo */
+.remember {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.remember input[type="checkbox"] {
+  transform: scale(1.5); /* Ajusta o tamanho do checkbox */
+  margin-right: 10px; /* Margem à direita para espaçamento */
+}
+
+.remember input:hover {  
+  background-color: gray;
+  transform: scale(1,5);
+}
+
+/* Estilos do botão de login */
+.login_btn {
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  height: 40px;
+  width: 90px;
+  padding: 0 20px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: auto; /* Alinha o botão à direita */
+}
+
+.login_btn:hover {
+  background-color: rgba(212, 212, 212, 0.9);
+  border: 2px solid black;
+  color: rgb(0, 0, 0);
+}
+
+
+/* Estilos para o link no rodapé */
+.card-footer {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+/* Dashboard config*/
+
+.dashboard_page{
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+
+
+.navbar {
+  display: flex;
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  align-items: center; /*Centraliza os itens verticalmente */
+  height: 80px; /* Altura desejada para a navbar */
+  background-color: #e8e8eb; /* Cor de fundo da navbar */
+  color: rgb(0, 0, 0); /* Cor do texto */
+}
+
+.nav-bar-bg {
+  background-color: rgba(214, 219, 235, 0.466);
+}
+
+.navbar-brand{
+  color: rgba(0, 0, 0, 0.500); /* Cor do texto */
+  text-decoration: none; /* Remove sublinhado dos links */
+  padding: 15px; /* Espaçamento interno dos links */
+  transition: backgnround-color 0.4s ease; /* Transição suave de cor ao passar o mouse */
+}
+
+.nav-item:hover {
+  color: rgb(0, 0, 0); /* Cor do texto ao passar o mouse */  
+  display: flex;
+  cursor: pointer;
+  border-radius: 10%;
+  transition: white 0.4s ease; /* Transição suave de cor ao passar o mouse */
+  text-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.466);
+  text-decoration: underline;
+}
+
+.navbar-nav {
+    display: flex;
+    height: 20px;
+    text-align: center;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+  }
+  
+.nav-item  {
+    transition: background-color 0.4s ease; /* Transição suave */
+    display: flex;
+    cursor: pointer;
+    border-radius: 10%;
+    padding-left: 10px;
+  }
+
+.sidebar {
+    position: fixed;
+    flex: 0 0 250px;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 300px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box; /* Garante que o padding não aumente a largura */
+  }
+
+.content {
+    flex: 1;
+    padding: 20px;
+    border: #007bff;
+    border-style: double;
+    box-sizing: border-box;
+  }
+
+.collapse a{
+    color: white;
+    transition: color 0.1s;
+    text-decoration: none;
+  }
+
+.btn:focus,
+.btn:active {
+    outline: none; /* Remove o contorno ao focar */
+    box-shadow: none; /* Remove qualquer sombra ao focar */
+    text-decoration: none;
+    color: white;
+  }
+  
+.collapse a:hover, 
+.collapse a:focus,
+.collapse a:active{
+    color: black;
+    outline: none; /* Remove o contorno ao focar */
+    box-shadow: none; /* Remove qualquer sombra ao focar */
+    text-decoration: none;
+  }
+
+.sidebar_max_min_size{
+    min-width: 350px;
+    max-width: 370px;
+  }
+
+.no_transition_menu {
+    outline: none; /* Remove o contorno ao focar */
+    box-shadow: none; /* Remove qualquer sombra ao focar */
+    text-decoration: none;
+    transition: none;
+    color: white;
+  }
+
+.no_transition_menu:focus,
+.no_transition_menu:active{
+  outline: none; /* Remove o contorno ao focar */
+  box-shadow: none; /* Remove qualquer sombra ao focar */
+  text-decoration: none;
+  color: white;
+}
